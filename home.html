@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Car Rentals</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.js">
+</head>
+<body >
+    <div class="video-container">
+        <button class="skip-btn" onclick="skipIntro()">Skip</button>
+        <video autoplay muted playsinline>
+            <source src="intro-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div class="container" >
+        <header>
+            <div class="logo">Wheels and Deals</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="C:\Users\ch\Desktop\project\signup.html">Log in/Sign up</a></li>
+                    <li><a href="C:\Users\ch\Desktop\project\contactus.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="content">
+                <h1>Sport Cars </h1>
+                <p>Your dream car awaits!</p>
+                <a href="C:\Users\ch\Desktop\project\brands.html" class="btn">Explore Now</a> <!-- for cars brands0-->
+            </div>
+            <div class="car-info">
+                
+                
+                <div class="specs">
+                    <h2>Founded in 2018</h2>
+                    <p>📍madinaty </p>
+                    <p>📍Zayed</p>
+                    <p>📍10th of ramadan city </p>
+                    
+                </div>
+               
+            </div>
+            </div>
+            
+            
+        </main>
+        <footer>
+            <p>Twitter | Facebook | YouTube</p>
+        </footer>
+    </div>
+    <script>
+        function skipIntro() {
+    document.querySelector('.video-container').style.display = 'none';
+}
+
+// Hide the intro after 10 seconds automatically
+setTimeout(() => {
+    skipIntro();
+}, 10000); // 10 seconds
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+.first-paragraph {
+    font-size: x-large;
+    color: white;
+    margin-left: 30px;
+}
+.second-paragraph {
+    font-size: x-large;
+    color: white;
+    margin-left: 30px;
+}
+h1 {
+    text-decoration: solid;
+    font-size: xx-large;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    
+    
+}
+body {
+    background-image: url('https://dragon2000-multisite.s3.eu-west-2.amazonaws.com/wp-content/uploads/sites/454/2023/10/02153050/That-Car-Place-home-page-hero-image-2.jpg');
+    background-size: cover;
+}

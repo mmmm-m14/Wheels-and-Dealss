@@ -1,0 +1,35 @@
+h1{
+    color: white;
+    text-decoration: underline solid;
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    color: white;
+    margin-left:200px;
+}
+.contact-section {
+    color: white;
+    padding: 30px 300px;
+    width: 20px;
+    height: 30px;
+   
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+.social-media {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+body {
+   background-image: url('https://mrwallpaper.com/images/hd/a-white-sports-car-in-a-dark-room-awp1rn5jma2rrhgz.jpg');
+   background-size: cover;
+}
+

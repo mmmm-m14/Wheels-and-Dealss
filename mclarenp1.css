@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9c9b9e;
+    color: #333;
+}
+
+h1, h2 {
+    color: #343435; /* Mclaren grey */
+}
+
+/* Header Styles */
+header {
+    background: #343435; /* Mclaren grey */
+    color: #9c9b9e;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #261a2e; /* purple color on hover */
+}
+
+/* Hero Section */
+#hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Section Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background:  #9c9b9e;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #343435;
+    padding-bottom: 10px;
+}
+
+/* Image Styles */
+.section-image {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+    transform: translateX(350px);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color:  #9c9b9e;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}

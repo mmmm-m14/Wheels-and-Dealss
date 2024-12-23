@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1d1f27;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1200px;
+    height: 600px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    margin-right: 150px;
+    padding: 20px;
+    background-image: url("image5.jpg");
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+     
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-style: oblique;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+.content p {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+    
+}
+
+.btn {
+    background: #ff6600;;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.car-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+}
+
+.car-image img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.specs h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+    
+    
+}
+
+
+
+.container:hover {
+    transform: scale(1.070); 
+    background-color: #2980b9; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.skip-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+
